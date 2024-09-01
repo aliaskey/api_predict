@@ -1,4 +1,16 @@
+
+# Ignorer les fichiers binaires
+
 env/
 *.dll
 *.pyd
 *.csv
+*.exe
+# Ignorer les fichiers CSV volumineux
+app/data/training.1600000.processed.noemoticon.csv
+
+
+
+# Ignorer les fichiers générés automatiquement
+__pycache__/
+*.pyc
